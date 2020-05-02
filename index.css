@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+	transition: 1s;
+}
+.th{
+	font-family: 'Bad Script';
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 5px;
+background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: yellow; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.intro{
+	background-color: #000;
+}
+.sub{
+	font-family: 'Pacifico';
+}
+p{
+	font-family: 'Roboto Slab';
+		}
+.crew{
+font-family: 'Kreon';
+}
+q{
+	font-family: 'Indie Flower';
+	font-size:28px;
+}
+.title{
+	color: #ffc940;
+	font-family: 'Aclonica';
+}
+.end{
+	background-image: linear-gradient(to right,#f57f7f,#ff4800,#ff3636,#ff0000);
+	color: #fff;
+}
+.right{
+	padding:5px;
+}
+.obj{
+	background-color: #000;
+	color: #fff;
+	transition: 2s;
+}
+.part{
+  background-image: linear-gradient(to right, #f2eb18, #ede909,#ffd500,#ffbb00);
+}
+.just{
+	transition: width 2s, height 2s, transform 2s;
+}
+.just:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
+.picintr{
+	transition: width 2s, height 2s, transform 2s;
+}
+.picintr:hover{
+	border-radius: 20px;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav{
+    width: 100%;
+    height: 65px;
+	margin: 0;
+    padding: 0;
+    line-height: 65px;
+    background-color: #ffbb00;
+	position: absolute;
+}
+.nav div.logo a:hover {
+    color: #000;
+}
+
+.nav div.main_list{
+    width: 600px;
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul{
+    width:100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+}
+
+.nav div.main_list ul li{
+    width: 120px;
+    height: 65px;
+}
+
+.nav div.main_list ul li a{
+    text-decoration: none;
+    color: #4f4f4f;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.nav div.main_list ul li a:hover{
+    color: #000;
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .container{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    
+    .container{
+        margin: 0;
+    }
+	
+.post{
+	color: grey;
+	font-family: 'Satisfy';
+}
+    
+.about{
+	padding: 15px;
+}
+.plot{
+	transition: 2s;
+}
