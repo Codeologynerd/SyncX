@@ -2,9 +2,67 @@
 	box-sizing: border-box;
 	transition: 1s;
 }
+#more, #mor1, #mor2 {display: none;}
+#myBtn, #toggle, #cloe{
+	border: 0px;
+	border-radius: 10%;
+	background-image: linear-gradient(to right, #0328fc, #5603fc);
+	color: white;
+	padding: 10px;
+}
+html {
+ scroll-behaviour:smooth;
+}
 .th{
 	font-family: 'Bad Script';
 }
+.media{
+	background-image: linear-gradient(to right, #95f542, #10ff08, #08ffc9);
+}
+.fa-youtube, .fa-instagram, .fa-twitter, .fa-facebook, .fa-google, .fa-linkedin {
+ transition: 2s;
+  color: black;
+padding: 20px;
+  border-radius: 20%;
+  text-transform: none;
+}
+.fa-youtube:hover {
+  color: white;
+  background: red;
+transform: rotate(15deg);
+text-transform: none;
+}
+.fa-instagram:hover {
+	color :white;
+	 background-image: linear-gradient(purple ,red, yellow);
+	 transform: rotate(15deg);
+	 text-transform: none;
+}
+.fa-twitter:hover {
+	background: #00acee;
+	color: white;
+	 transform: rotate(15deg);
+	 text-transform: none;
+}
+
+.fa-facebook:hover{
+	color:white;
+	background: #3b5998;
+	 transform: rotate(15deg);
+	 text-transform: none;
+}
+ .fa-google:hover{
+ background: #e35e40;
+ color: white;
+ transform: rotate(15deg);
+ }
+  .fa-linkedin:hover{
+  background: 
+#004280
+;
+color: white;
+transform: rotate(15deg);
+  }
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -81,6 +139,7 @@ q{
     line-height: 65px;
     background-color: #ffbb00;
 	position: absolute;
+	text-align:center;
 }
 .nav div.logo a:hover {
     color: #000;
@@ -89,19 +148,21 @@ q{
 .nav div.main_list{
     width: 600px;
     height: 65px;
-    float: right;
+  
 }
 
 .nav div.main_list ul{
     width:100%;
-    height: 65px;
-    display: flex;
+    height: 80px;
+     display: flex;
     list-style: none;
 }
 
 .nav div.main_list ul li{
     width: 120px;
     height: 65px;
+	    float:left;
+		margin-left: 20px;
 }
 
 .nav div.main_list ul li a{

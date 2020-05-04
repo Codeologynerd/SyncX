@@ -2,13 +2,16 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Aclonica|Bad+Script|Kreon&display=swap" rel="stylesheet">
 <link href="https://www.logogenie.net/download/preview/engine/6353238" rel="icon">
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@531&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="index.css" rel="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="index.js">
+</script>
 <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -32,6 +35,7 @@
 <center>
     <div class="container" ></div>
         <div class="main_list" id="mainListDiv">
+		<center>
            <ul class="ppl">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about" >About</a></li>
@@ -40,6 +44,7 @@
                 <li><a href="#part">Partners</a></li>
                 <li><a href="#crew" >Crew</a></li>
         			</ul>
+					</center>
         </div>    </div>
 </center>
 </nav>
@@ -83,12 +88,14 @@ towns/villages in this unprecedented time. Owing to the challenges faced by scho
 <b>2020 the 404 error year</b>,  Beggining with such a crisis and now just praying for our lives. Well what we <br>
 studied in junior grade that nature always balances in some way or the other and now what we get is stay<br>
  home and watch the world save by the heroes who do not wear cape, any suit neither they come with any<br>
-  dramatic sounds nor any hi-tech weapon, they  came with some surgeon mask, hand sanitizer, syringes and<br>
+  dramatic sounds nor any hi-tech weapon, they  came with some surgeon mask, <span id="dots">...</span><span id="more">hand sanitizer, syringes and<br>
    what not, yes they are the doctors and nurses we see in hospital working and giving up their life for us.<br><br>
     Due to this pandemic crisis, schools are trying their best to provide their students education but here <br>
 	what a problem lies due to such video calls or meetings there is a huge bandwidth and there are some people <br>
 	who are located at remote areas and do not have stable  connections for such facilities and from here our journey started.
+	</span>
 </p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
 </center>
 </div>
 <div class="obj">
@@ -101,13 +108,16 @@ studied in junior grade that nature always balances in some way or the other and
 <table>
 <tr>
 <td >
-<p>
+<p> 
 We all know the online schooling as a solution given by schools to teach their students but since everything is <br>
-not easily excuted, there are places or childrens who cannot access this facility and due to this millions of children in<br>
+not easily excuted, there are places or childrens who cannot access this facility <span id="dot1">...</span><span id="mor1">and due to this millions of children in<br>
  India or other students in world cannot have education because of the problems from the client-side or from <br>
 the server-side and some meeting apps are considred as easily breached by hackers and since this is the problem,<br>
   here we come in with our aim to give this facilities to these students as soon as possible.
+ <br>
 </p>
+</span> 
+  <button id="toggle" onclick="my()">Read More</button>
 </td>
 <td style="padding: 10px;"><img src="https://media.giphy.com/media/2higF6P3xOhMY/giphy.gif" class="picintr"></td>
 </tr>
@@ -204,18 +214,38 @@ companies like Microsoft, Google, Yahoo and Amazon helped us with spreading our 
 <tr>
 <td><img src="Sync-X.png" width=200 height=200 style="border-radius: 100%;" class="just"></td>
 <td style="padding: 20px;"><p>Our App named after our company, this app will provide students located in remote areas to get access<br>
- to online education by having low bandwidth as compared to online meetings. We know you must be wondering<br>
+ to online education by having low bandwidth<span id="dot2">...</span><span id="mor2">as compared to online meetings. We know you must be wondering<br>
   that it is secure because of the recent news that Indian government declared zoom unsafe, So we have new <br>
   complex type encrypts and high level authentication, app testing is been analysed by many Red Hat and White <br>
   hat hackers. This app will be launched soon on web servers as it is been sent for some verification. Hope our <br>
-  organisation and app will benefit your  online schooling. <b><u>Happy Schooling!!!!!</u></b>
+  organisation and app will benefit your  online schooling. <b><u>Happy Schooling!!!!!</u></b></span>
 </p>
 <br>
 <b>hover over the app's icon ;)</b>
+<br>
+  <button id="cloe" onclick="myB()">Read More</button>
 </td>
 </tr>
 </table>
 </center>
+</div>
+<div class="media">
+<br>
+<font size= "50">
+<br>
+<h1 style="font-family: 'Pacifico';">Our Social Handles which could enlighten you:</h1>
+<table style="float: right;">
+<tr>
+<th>
+<a href="https://www.facebook.com/NGO-132859323574585" target="_blank" class="fa fa-facebook"></a></th>
+<th><a href="https://twitter.com/acri_ngo" target="_blank"class="fa fa-twitter"></a></th>
+<th><a href="https://www.youtube.com/user/thearohfoundation" target="_blank"class="fa fa-youtube"></a></th>
+<th><a href="https://www.instagram.com/pencilsofpromise/?hl=en" target="_blank" class="fa fa-instagram"></a></th>
+<th><a href="https://ngosindia.com/funding-agencies/google-for-nonprofits/"  target="_blank" class="fa fa-google"></a></th>
+<th><a href="https://sarthakindia.org/"   target="_blank" class="fa fa-linkedin"></a></th>
+</font>
+</tr>
+</table>
 </div>
 </body>
 </html>
