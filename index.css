@@ -20,7 +20,7 @@ html {
 	background-image: linear-gradient(to right, #95f542, #10ff08, #08ffc9);
 }
 .fa-youtube, .fa-instagram, .fa-twitter, .fa-facebook, .fa-google, .fa-linkedin {
- transition: 2s;
+ transition: 1s;
   color: black;
 padding: 20px;
   border-radius: 20%;
