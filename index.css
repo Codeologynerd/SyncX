@@ -211,4 +211,6 @@ q{
 }
 .plot{
 	transition: 2s;
+	background-image: url(https://cdn.dribbble.com/users/1162077/screenshots/4948920/mechanical-pattern.gif);
+	color: white;
 }
